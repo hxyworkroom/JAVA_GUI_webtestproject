@@ -23,7 +23,7 @@ public class HttpClient_Single_Get_Send_Panel {
 	public JPanel httpClient_Single_Get_Send_Panel(int x,int y){
 		JPanel hssp=new JPanel();
 		hssp.setLayout(null); 
-		hssp.setBounds(5,5,(int)(x*0.3),(int)(y*0.25));
+		hssp.setBounds(5,5,(int)(x*0.35),(int)(y*0.25));
 //		hssp.setBounds(5,5,800,800);
 		hssp.setBackground(Color.white);
 		//url字符

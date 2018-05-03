@@ -32,7 +32,7 @@ public class HttpClient_Single_Get_Send_Console_Button {
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}finally{
-					JTextArea console=new HttpClient_Single_Get_Send_Console_JTextArea().httpClient_Single_Get_Send_Console_JTextArea("abc");
+					JTextArea console=new HttpClient_Single_Get_Send_Console_JTextArea().httpClient_Single_Get_Send_Console_JTextArea(htmls);
 					JScrollPane scroll = new HttpClient_Single_Get_Send_Console_JScrollPane().httpClient_Single_Get_Send_Console_JScrollPane(x,y,console);
 					hsgscp.add(scroll);
 

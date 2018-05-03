@@ -4,8 +4,10 @@ import java.awt.Color;
 
 
 
+
 import javax.swing.JPanel;
 
+import cn.hy.httpclient_compoments.HttpClient_Single_Get_Send_Console_Panel;
 import cn.hy.httpclient_compoments.HttpClient_Single_Get_Send_Panel;
 
 
@@ -26,6 +28,9 @@ public class HttpClient_Panel {
 		JPanel hssp=new HttpClient_Single_Get_Send_Panel().httpClient_Single_Get_Send_Panel(x, y);
 		httpClient_panel.add(hssp);
 
+		JPanel hsgscp=new HttpClient_Single_Get_Send_Console_Panel().httpClient_Single_Get_Send_Console_Panel(x, y);
+		httpClient_panel.add(hsgscp);
+		
 		return httpClient_panel;
 	}
 }

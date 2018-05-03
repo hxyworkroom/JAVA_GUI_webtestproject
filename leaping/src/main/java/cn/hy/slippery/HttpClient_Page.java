@@ -26,7 +26,7 @@ public class HttpClient_Page extends JFrame {
 		final JFrame httpClientPage=new HttpClient_Page();
 		
 		httpClientPage.setBackground(Color.BLUE);//设置容器的背景颜色
-		int w = 1900;
+		int w = 1600;
 		int h = 1000;
 		httpClientPage.setLocation((wscreen-w)/2,(hscreen-h)/2-20);//设置窗口初始出现位置
 		
